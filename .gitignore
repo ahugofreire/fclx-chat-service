@@ -1,0 +1,6 @@
+chatservice/.docker
+chatservice/.env
+chatservice/.idea
+
+.idea
+.vscode
