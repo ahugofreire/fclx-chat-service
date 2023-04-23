@@ -4,3 +4,11 @@ chatservice/.idea
 
 .idea
 .vscode
+
+
+nextjschat/.vscode
+nextjschat/.docker
+nextjschat/node_modules
+nextjschat/.next
+nextjschat/build
+nextjschat/next-env.d.ts
