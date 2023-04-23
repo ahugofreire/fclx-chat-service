@@ -13,7 +13,7 @@ Authorization: Bearer {{token}}
 
 ###
 GET http://localhost:3000/api/chats
-
+Authorization: Bearer {{token}}
 ###
 
 @chatId = fb9580eb-ada9-4b73-88ce-6290dbfdf7aa
@@ -29,10 +29,10 @@ Content-Type: application/json
 }
 
 ###
-@messageId = 002133b3-a686-462a-b4e2-f2f402bf5fd0
+@messageId = d4444868-5832-4ccf-8845-ce888de7a2dc
 
 GET http://localhost:3000/api/messages/{{messageId}}/events
-
+Authorization: Bearer {{token}}
 
 ###
 POST http://localhost:3000/api/generate-token
